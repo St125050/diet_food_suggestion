@@ -40,8 +40,8 @@ def predict():
                               (all_diets['Fat(g)'] >= fat_min) & (all_diets['Fat(g)'] <= fat_max)]
 
     # Decode the labels
-    le_diet = joblib.load('model/le_diet.pkl')  # Load the label encoder for diet
-    le_cuisine = joblib.load('model/le_cuisine.pkl')  # Load the label encoder for cuisine
+    le_diet = joblib.load('le_diet.pkl')  # Load the label encoder for diet
+    le_cuisine = joblib.load('le_cuisine.pkl')  # Load the label encoder for cuisine
     filtered_data['Diet_type'] = le_diet.inverse_transform(filtered_data['Diet_type'])
     filtered_data['Cuisine_type'] = le_cuisine.inverse_transform(filtered_data['Cuisine_type'])
 
