@@ -1,0 +1,91 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background-color: #ff0000; /* Red */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    padding: 20px;
+}
+
+.form-section, .results-section {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.form-section h2, .results-section h2 {
+    color: #ff0000; /* Red */
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    background-color: #ffff00; /* Yellow */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ff0000; /* Red */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #cc0000;
+}
+
+.results-section {
+    background-color: #ffff00; /* Yellow */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.results-section div {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #ff0000; /* Red */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
