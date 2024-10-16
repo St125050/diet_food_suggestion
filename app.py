@@ -32,7 +32,7 @@ def predict():
     fat_min, fat_max = fat * (1 - tolerance), fat * (1 + tolerance)
 
     # Load the dataset
-    all_diets = pd.read_csv('path_to_combined_dataset.csv')  # Update with the correct path
+    all_diets = pd.read_csv('combined_diets.csv')  # Update with the correct path
 
     # Filter the dataset for the given nutritional details within the tolerance range
     filtered_data = all_diets[(all_diets['Protein(g)'] >= protein_min) & (all_diets['Protein(g)'] <= protein_max) &
